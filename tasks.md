@@ -5,12 +5,19 @@
 Answer the following questions:
 
 - A good start to understand the repo is to check the `package.json`. What is the HTTP server library used here? What development tools are configured? 
+Fastify server library, jest for tests, nodemon for dev
 - What does the following scripts do? `dev`, `test`
+test runs the jest test tool, dev runs the server.ts through nodemon
 - What is the entry point of the server?
+server.ts
 - What do you think why is the `app.ts` and the `server.ts` are separated? 
+separation of concert
 - If you would create a new endpoint in which file would you put it?
+app.ts it's responsible for the routes
 - In the tests which method simulates the HTTP request?
+.inject() and .get('/api/hello')
 - What do you think what does the `ts-node` package do?
+allows you to run the typescript files without compiling 
 
 ## Task 2: Meet with Fastify
 

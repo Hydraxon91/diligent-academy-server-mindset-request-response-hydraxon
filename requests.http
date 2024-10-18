@@ -3,3 +3,13 @@
 ###
 
 GET {{host}}/api/hello
+
+###
+
+POST {{host}}/api/beverages/tea?milk=yes&sugar=yes
+Content-Type: application/json
+CodeCool-Beverages-Dietary: lactose-intolerance
+
+{
+    "kind": "Pumpking Spice"
+}
